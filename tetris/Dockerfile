@@ -16,7 +16,7 @@
 #
 
 # Base docker image
-FROM alpine:latest
+FROM alpine:3.17.3
 MAINTAINER Jessica Frazelle <jess@docker.com>
 
 # Install emacs:
