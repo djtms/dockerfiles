@@ -8,7 +8,7 @@
 # 	--name privoxy \
 # 	jess/privoxy
 #
-FROM alpine:latest
+FROM alpine:3.17.3
 MAINTAINER Jessica Frazelle <jess@docker.com>
 
 RUN apk --no-cache add \
