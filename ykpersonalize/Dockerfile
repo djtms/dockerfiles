@@ -6,7 +6,7 @@
 #	--name ykpersonalize \
 #	jess/ykpersonalize
 #
-FROM ubuntu
+FROM ubuntu:kinetic
 MAINTAINER Jessica Frazelle <jess@docker.com>
 
 RUN apt-get update && apt-get install -y \
