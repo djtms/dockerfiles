@@ -5,7 +5,7 @@
 # 	-e "PUBKEY=$(cat ~/.ssh/id_ed25519.pub)" \
 # 	--name gitserver \
 # 	jess/gitserver
-FROM alpine:latest
+FROM alpine:3.18.3
 MAINTAINER Jessica Frazelle <jess@docker.com>
 
 ENV HOME /root
