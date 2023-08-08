@@ -7,7 +7,7 @@
 # 	--name torproxy \
 # 	jess/tor-proxy
 #
-FROM alpine:latest
+FROM alpine:3.18.3
 MAINTAINER Jessica Frazelle <jess@docker.com>
 
 RUN apk --no-cache add \
