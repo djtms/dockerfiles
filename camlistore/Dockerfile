@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 MAINTAINER Jessica Frazelle <jess@docker.com>
 
 ENV PATH /go/bin:/usr/local/go/bin:$PATH
