@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3
 MAINTAINER Jessica Frazelle <jess@docker.com>
 
 ENV HOME /home/gcalcli
