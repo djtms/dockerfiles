@@ -6,7 +6,7 @@
 #  -p 8181:8181 \
 #  arukaen/plexpy
 
-FROM alpine:latest
+FROM alpine:3
 MAINTAINER  Cris G c@cristhekid.com
 
 # Install required packages.
